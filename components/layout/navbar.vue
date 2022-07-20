@@ -66,6 +66,10 @@ const setColorTheme = (newTheme: Theme) => {
                         class="transition duration-500 hover:scale-110 ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                         Sign up
                     </nuxt-link>
+
+                    <a class="ml-5" href="https://github.com/jurassicjs/nuxt3-laravel-dev" target="_blank">
+                        <img class="h-8 w-auto sm:h-10" src="~/public/img/github-logo.png" />
+                    </a>
                 </div>
                 <button class="hidden md:block"
                     @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')">
