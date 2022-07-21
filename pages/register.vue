@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
 import { registerWithEmail } from "~/composables/useAuth";
+import { FormValidation } from "~~/types/FormValidation";
 
 const email = ref(null);
 const password = ref(null);
